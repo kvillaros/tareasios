@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9B4A22441D98BBFB003DBA0D /* DogsTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A22421D98BBFB003DBA0D /* DogsTableCell.m */; };
+		9B4A22451D98BBFB003DBA0D /* DogsTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B4A22431D98BBFB003DBA0D /* DogsTableCell.xib */; };
+		9B4A22481D98CAF3003DBA0D /* DetailTableController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B4A22471D98CAF3003DBA0D /* DetailTableController.m */; };
+		9B5515651D94DDCD0092B8FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5515641D94DDCD0092B8FD /* main.m */; };
+		9B5515681D94DDCD0092B8FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5515671D94DDCD0092B8FD /* AppDelegate.m */; };
+		9B55156E1D94DDCD0092B8FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B55156C1D94DDCD0092B8FD /* Main.storyboard */; };
+		9B5515701D94DDCD0092B8FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B55156F1D94DDCD0092B8FD /* Assets.xcassets */; };
+		9B5515731D94DDCD0092B8FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B5515711D94DDCD0092B8FD /* LaunchScreen.storyboard */; };
+		9B55157C1D94DE1C0092B8FD /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B55157B1D94DE1C0092B8FD /* Dog.m */; };
+		9B55157F1D94E5EC0092B8FD /* DogsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B55157E1D94E5EC0092B8FD /* DogsTableViewController.m */; };
+		AC034F024B732B655D674EDA /* libPods-tarea4.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 43144AD419D8B13238FF2A60 /* libPods-tarea4.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		43144AD419D8B13238FF2A60 /* libPods-tarea4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-tarea4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B0DB36F28AA29251A19A7CF /* Pods-tarea4.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarea4.debug.xcconfig"; path = "Pods/Target Support Files/Pods-tarea4/Pods-tarea4.debug.xcconfig"; sourceTree = "<group>"; };
+		9B4A22411D98BBFB003DBA0D /* DogsTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DogsTableCell.h; path = tarea4/DogsTableCell.h; sourceTree = "<group>"; };
+		9B4A22421D98BBFB003DBA0D /* DogsTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DogsTableCell.m; path = tarea4/DogsTableCell.m; sourceTree = "<group>"; };
+		9B4A22431D98BBFB003DBA0D /* DogsTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = DogsTableCell.xib; path = tarea4/DogsTableCell.xib; sourceTree = "<group>"; };
+		9B4A22461D98CAF3003DBA0D /* DetailTableController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailTableController.h; sourceTree = "<group>"; };
+		9B4A22471D98CAF3003DBA0D /* DetailTableController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailTableController.m; sourceTree = "<group>"; };
+		9B5515601D94DDCD0092B8FD /* tarea4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tarea4.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B5515641D94DDCD0092B8FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9B5515661D94DDCD0092B8FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9B5515671D94DDCD0092B8FD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9B55156D1D94DDCD0092B8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9B55156F1D94DDCD0092B8FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9B5515721D94DDCD0092B8FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9B5515741D94DDCD0092B8FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9B55157A1D94DE1C0092B8FD /* Dog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Dog.h; path = tarea4/Dog.h; sourceTree = "<group>"; };
+		9B55157B1D94DE1C0092B8FD /* Dog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dog.m; path = tarea4/Dog.m; sourceTree = "<group>"; };
+		9B55157D1D94E5EC0092B8FD /* DogsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DogsTableViewController.h; path = tarea4/DogsTableViewController.h; sourceTree = "<group>"; };
+		9B55157E1D94E5EC0092B8FD /* DogsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DogsTableViewController.m; path = tarea4/DogsTableViewController.m; sourceTree = "<group>"; };
+		E72DD1A8F8361D1976C0CAA4 /* Pods-tarea4.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-tarea4.release.xcconfig"; path = "Pods/Target Support Files/Pods-tarea4/Pods-tarea4.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9B55155D1D94DDCD0092B8FD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC034F024B732B655D674EDA /* libPods-tarea4.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0304AA5ED34C5BA4B6B562AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				43144AD419D8B13238FF2A60 /* libPods-tarea4.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3401804ECA1426B3A9CE906B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9B0DB36F28AA29251A19A7CF /* Pods-tarea4.debug.xcconfig */,
+				E72DD1A8F8361D1976C0CAA4 /* Pods-tarea4.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9B5515571D94DDCD0092B8FD = {
+			isa = PBXGroup;
+			children = (
+				9B4A22411D98BBFB003DBA0D /* DogsTableCell.h */,
+				9B4A22421D98BBFB003DBA0D /* DogsTableCell.m */,
+				9B4A22431D98BBFB003DBA0D /* DogsTableCell.xib */,
+				9B55157D1D94E5EC0092B8FD /* DogsTableViewController.h */,
+				9B55157E1D94E5EC0092B8FD /* DogsTableViewController.m */,
+				9B55157A1D94DE1C0092B8FD /* Dog.h */,
+				9B55157B1D94DE1C0092B8FD /* Dog.m */,
+				9B5515621D94DDCD0092B8FD /* tarea4 */,
+				9B5515611D94DDCD0092B8FD /* Products */,
+				3401804ECA1426B3A9CE906B /* Pods */,
+				0304AA5ED34C5BA4B6B562AE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9B5515611D94DDCD0092B8FD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B5515601D94DDCD0092B8FD /* tarea4.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9B5515621D94DDCD0092B8FD /* tarea4 */ = {
+			isa = PBXGroup;
+			children = (
+				9B5515661D94DDCD0092B8FD /* AppDelegate.h */,
+				9B5515671D94DDCD0092B8FD /* AppDelegate.m */,
+				9B55156C1D94DDCD0092B8FD /* Main.storyboard */,
+				9B4A22461D98CAF3003DBA0D /* DetailTableController.h */,
+				9B4A22471D98CAF3003DBA0D /* DetailTableController.m */,
+				9B55156F1D94DDCD0092B8FD /* Assets.xcassets */,
+				9B5515711D94DDCD0092B8FD /* LaunchScreen.storyboard */,
+				9B5515741D94DDCD0092B8FD /* Info.plist */,
+				9B5515631D94DDCD0092B8FD /* Supporting Files */,
+			);
+			path = tarea4;
+			sourceTree = "<group>";
+		};
+		9B5515631D94DDCD0092B8FD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9B5515641D94DDCD0092B8FD /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9B55155F1D94DDCD0092B8FD /* tarea4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9B5515771D94DDCD0092B8FD /* Build configuration list for PBXNativeTarget "tarea4" */;
+			buildPhases = (
+				0D80F816E4B6828734A173F4 /* [CP] Check Pods Manifest.lock */,
+				9B55155C1D94DDCD0092B8FD /* Sources */,
+				9B55155D1D94DDCD0092B8FD /* Frameworks */,
+				9B55155E1D94DDCD0092B8FD /* Resources */,
+				35D1393F803795E26342B4ED /* [CP] Embed Pods Frameworks */,
+				3E28790610695439430AD323 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tarea4;
+			productName = tarea4;
+			productReference = 9B5515601D94DDCD0092B8FD /* tarea4.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9B5515581D94DDCD0092B8FD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Kristel Villalobos";
+				TargetAttributes = {
+					9B55155F1D94DDCD0092B8FD = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 9B55155B1D94DDCD0092B8FD /* Build configuration list for PBXProject "tarea4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9B5515571D94DDCD0092B8FD;
+			productRefGroup = 9B5515611D94DDCD0092B8FD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9B55155F1D94DDCD0092B8FD /* tarea4 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9B55155E1D94DDCD0092B8FD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5515731D94DDCD0092B8FD /* LaunchScreen.storyboard in Resources */,
+				9B5515701D94DDCD0092B8FD /* Assets.xcassets in Resources */,
+				9B55156E1D94DDCD0092B8FD /* Main.storyboard in Resources */,
+				9B4A22451D98BBFB003DBA0D /* DogsTableCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0D80F816E4B6828734A173F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		35D1393F803795E26342B4ED /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarea4/Pods-tarea4-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E28790610695439430AD323 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-tarea4/Pods-tarea4-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9B55155C1D94DDCD0092B8FD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B5515681D94DDCD0092B8FD /* AppDelegate.m in Sources */,
+				9B55157C1D94DE1C0092B8FD /* Dog.m in Sources */,
+				9B55157F1D94E5EC0092B8FD /* DogsTableViewController.m in Sources */,
+				9B4A22481D98CAF3003DBA0D /* DetailTableController.m in Sources */,
+				9B4A22441D98BBFB003DBA0D /* DogsTableCell.m in Sources */,
+				9B5515651D94DDCD0092B8FD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9B55156C1D94DDCD0092B8FD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B55156D1D94DDCD0092B8FD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9B5515711D94DDCD0092B8FD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9B5515721D94DDCD0092B8FD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9B5515751D94DDCD0092B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9B5515761D94DDCD0092B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9B5515781D94DDCD0092B8FD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9B0DB36F28AA29251A19A7CF /* Pods-tarea4.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tarea4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.userone.tarea4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9B5515791D94DDCD0092B8FD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E72DD1A8F8361D1976C0CAA4 /* Pods-tarea4.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = tarea4/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.userone.tarea4;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9B55155B1D94DDCD0092B8FD /* Build configuration list for PBXProject "tarea4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5515751D94DDCD0092B8FD /* Debug */,
+				9B5515761D94DDCD0092B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9B5515771D94DDCD0092B8FD /* Build configuration list for PBXNativeTarget "tarea4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9B5515781D94DDCD0092B8FD /* Debug */,
+				9B5515791D94DDCD0092B8FD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9B5515581D94DDCD0092B8FD /* Project object */;
+}
