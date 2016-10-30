@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="zSG-wD-NpQ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--Sucesión de Fibonachi-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="Xzo-6c-AoT">
+                                <rect key="frame" x="75" y="86" width="170" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0V-LN-Dxv">
+                                <rect key="frame" x="71" y="131" width="178" height="30"/>
+                                <color key="backgroundColor" red="0.18431450469999999" green="0.33472710280000001" blue="0.65206776489999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Seleccionar"/>
+                                <connections>
+                                    <action selector="nextAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="n6r-G9-sGg"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="O0V-LN-Dxv" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="51" id="E0e-BL-DIY"/>
+                            <constraint firstItem="Xzo-6c-AoT" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="22" id="JFc-eK-oDo"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Xzo-6c-AoT" secondAttribute="trailing" constant="55" id="Jgm-yn-zhF"/>
+                            <constraint firstItem="O0V-LN-Dxv" firstAttribute="top" secondItem="Xzo-6c-AoT" secondAttribute="bottom" constant="15" id="fDf-Vr-ath"/>
+                            <constraint firstItem="Xzo-6c-AoT" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="55" id="ioF-lO-84R"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="O0V-LN-Dxv" secondAttribute="trailing" constant="51" id="yuv-Aa-693"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sucesión de Fibonachi" id="tNq-oK-bzP"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="bntEnviar" destination="O0V-LN-Dxv" id="DLA-4x-Jpy"/>
+                        <outlet property="txtNumber" destination="Xzo-6c-AoT" id="kXW-pa-iMm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="634" y="305"/>
+        </scene>
+        <!--Resultado Table View Controller-->
+        <scene sceneID="5tG-dH-R9D">
+            <objects>
+                <viewController storyboardIdentifier="ResultadoTableViewController" id="bR3-Xq-vil" customClass="ResultadoTableViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="hks-0q-vR2"/>
+                        <viewControllerLayoutGuide type="bottom" id="7Zu-Kr-2h3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="0jt-Dy-88N">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Yaz-8t-qEK">
+                                <rect key="frame" x="0.0" y="20" width="320" height="548"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="bR3-Xq-vil" id="dnS-dq-AuG"/>
+                                    <outlet property="delegate" destination="bR3-Xq-vil" id="EgL-kX-7MK"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="7Zu-Kr-2h3" firstAttribute="top" secondItem="Yaz-8t-qEK" secondAttribute="bottom" id="Cyx-gm-1rM"/>
+                            <constraint firstItem="Yaz-8t-qEK" firstAttribute="top" secondItem="hks-0q-vR2" secondAttribute="bottom" id="GGm-EV-Pmj"/>
+                            <constraint firstItem="Yaz-8t-qEK" firstAttribute="leading" secondItem="0jt-Dy-88N" secondAttribute="leading" id="dFk-5K-WcZ"/>
+                            <constraint firstAttribute="trailing" secondItem="Yaz-8t-qEK" secondAttribute="trailing" id="r5T-11-fRb"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="tableView" destination="Yaz-8t-qEK" id="1r6-2R-vwN"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="52W-Rb-PAi" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1001" y="305"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="w53-bb-aJ4">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="zSG-wD-NpQ" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="fML-0L-9ZW">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="sxw-eV-JhY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="X7e-66-1lT" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="268" y="305"/>
+        </scene>
+    </scenes>
+</document>
